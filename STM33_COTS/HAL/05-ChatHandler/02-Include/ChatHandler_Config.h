@@ -1,0 +1,62 @@
+#ifndef CHAT_HANDLER_CONFIG_H
+#define CHAT_HANDLER_CONFIG_H
+
+#include "UART_Interface.h"
+
+
+/*Configuration*/
+
+	/*USART_CR1_8BIT_DATA	
+	USART_CR1_9BIT_DATA
+	
+	USART_CR1_RE
+	USART_CR1_R_DISABLE
+	
+    USART_CR1_TE
+	USART_CR1_T_DISABLE
+	
+	
+	USART_CR1_EVEN_PARITY	
+	USART_CR1_ODD_PARITY
+
+	USART_CR1_PARITY_ENABLE	
+	USART_CR1_PARITY_DISABLE
+	
+	
+	USART_CR1_UART_ENABLE
+	USART_CR1_UART_DISABLE
+	
+	
+	USART_CR2_ONE_BIT_STOP
+	USART_CR2_TWO_BIT_STOP
+	
+	
+	USART_CR1_OVER_SAMPLEBY8	
+	USART_CR1_OVER_SAMPLEBY16	*/
+
+
+typedef struct 
+{
+	UASRT_Cfg_t ChatCfg;
+	u8 ChannelId;
+	
+}ChatChannel_t,*ChatChannelHandler_t;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#endif

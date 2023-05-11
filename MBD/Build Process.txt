@@ -1,0 +1,15 @@
+1-Model Comp
+2-Code Generator
+3-Executabel generation(optional)
+
+
+
+
+check syntax->> parameter of block --> config of mode --> integrtion process --> script syntax
+
+
+
+Model.slx_>>>Simulink coder_>>Model.rtw-+TLC lib >>>TLC_>>file.c
+
+  
+
